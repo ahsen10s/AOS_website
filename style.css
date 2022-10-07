@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Comfortaa:wght@500&family=Nunito:wght@500&display=swap');
+
+body{
+    background-color: #051821;
+    color: #F58800;
+    font-family: 'Comfortaa', cursive;
+}
+header{
+    text-align: center;
+    font-size: 40px;
+}
+.panels{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+.panel{
+    width: 40%;
+    font-size: 30px;
+    margin: 100px 10px;
+    border: 1px solid #e3e3e3;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
